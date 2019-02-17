@@ -1,4 +1,4 @@
-#Jeremy's code about number of stops for the time of day
+# number of stops for the time of day
 library(tidyverse)
 library(lubridate)
 library(plotly)
@@ -12,7 +12,7 @@ l
 
 ###################################################################
 
-#Jen's code about stop outcomes and days of the month
+# stop outcomes and days of the month
 setwd("C:\\Users\\leger\\Desktop\\intro to R")
 
 library(dplyr)
@@ -58,7 +58,7 @@ plot(x=tickstopdataframe2$day_of_month, y=tickstopdataframe2$percent, xlab = "Da
 ###################################################################
 
 # Question: Do Out-of-State Residents get more tickets?
-# Name: Yi-Ming Chang (Amy)
+
 
 #check and setup the working directoy
 getwd()
@@ -105,7 +105,7 @@ legend("topright", legend=c("Checkup", "Summons", "Ticket", "Warning"),
 
 ###################################################################
 
-#Maz's code about the gender vs. stop outcome 
+# the gender vs. stop outcome 
 library(dplyr)
 library(ggplot2)
 
@@ -134,7 +134,7 @@ n
 
 ###################################################################
 
-#Frawley's code about percentage of warnings for males and females 
+# percentage of warnings for males and females 
 library(dplyr)
 NHdata=read.csv("NH_cleaned.csv")
 NHdatatibble<- tbl_df(traffic)
