@@ -3,7 +3,7 @@ library(tidyverse)
 library(lubridate)
 library(plotly)
 getwd()
-setwd("C:/Users/jerem.DESKTOP-GGM6Q2I/Documents/UNH Data Analytics/csv excel files")
+setwd("E:\\UNH\PK")
 nh=read.csv("NH_cleaned.csv")
 nh$hour<-hour(hm(nh$stop_time))
 l<-ggplot(nh,aes(x=hour,fill=county_name))+geom_bar()#bar chart#fill color by sex column
@@ -13,7 +13,7 @@ l
 ###################################################################
 
 # stop outcomes and days of the month
-setwd("C:\\Users\\leger\\Desktop\\intro to R")
+
 
 library(dplyr)
 library(ggplot2)
@@ -62,7 +62,7 @@ plot(x=tickstopdataframe2$day_of_month, y=tickstopdataframe2$percent, xlab = "Da
 
 #check and setup the working directoy
 getwd()
-setwd("/Users/amy/Desktop")
+
 getwd()
 NHdata <- read.csv("NH_cleaned.csv")
 
